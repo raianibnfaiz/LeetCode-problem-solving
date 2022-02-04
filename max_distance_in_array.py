@@ -20,5 +20,5 @@ def maximumDistance(A):
         else:
             max_gap=max(max_gap, index_number-minimum_index_number)
     return max_gap
-A=[4,2,8,1,0,7]
+A=[3,5,4,2]
 print(maximumDistance(A))
